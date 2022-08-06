@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./we-sopt-29-server-firebase-adminsdk-xbekl-32821e105a');
+const serviceAccount = require('./github-following-tracker-firebase-adminsdk-z0scu-39779eb514');
 const dotenv = require('dotenv');
 
 dotenv.config();
