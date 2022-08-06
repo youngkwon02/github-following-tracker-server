@@ -88,5 +88,5 @@ module.exports = async (req, res) => {
     ...only,
   };
 
-  return res.status(statusCode.OK).send(util.success(statusCode.OK, responseMessage.EXIST_USER, data));
+  return res.status(statusCode.OK).send(util.success(statusCode.OK, responseMessage.TRACKING_SUCCESS, data));
 };
