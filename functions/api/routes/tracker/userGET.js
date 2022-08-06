@@ -3,7 +3,6 @@ const statusCode = require('../../../constants/statusCode');
 const responseMessage = require('../../../constants/responseMessage');
 const { fetchGET } = require('../../../lib/fetchGET');
 const { githubHost } = require('../../../lib/githubHost');
-const { stringToHtml } = require('../../../lib/stringToHtml');
 
 module.exports = async (req, res) => {
   const { userId } = req.query;
